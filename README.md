@@ -37,7 +37,7 @@ So regex iterator works like this:
 4. The iterator updates the std::smatch object with the new match in the std::smatch object.
 5. When no more matches are found, the it iterator is set to std::sregex_iterator{}, which is like an empty iterator.
 
-You can find a basic example of this logic [here]().
+You can find a basic example of this logic [here](https://github.com/duartemv00/CPPRegrexPossibilities/blob/main/regexIteratorBasicExample.cpp).
 
 ### Real uses of Regular Expressions:
 - **Split Text**
