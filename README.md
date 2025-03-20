@@ -15,6 +15,8 @@ Sequence of characters that define a search pattern. Used for text processing ta
 | `colou?r` | Matches `"color"` and `"colour"` (optional `u`) | `"color"`, `"colour"` |
 | `\bcat\b` | Matches the whole word `"cat"` (not part of another word) | `"cat"` ✅, `"catch"` ❌ |
 
+You can check out a basic example of use of regex [here.](https://github.com/duartemv00/CPPRegrexPossibilities/blob/main/regexBasicExample.cpp)
+
 ### Where Regular Expressions Are Used:
 - **Search and Replace**: Finding patterns in text (e.g., validating email addresses).  
 - **Data Extraction**: Extracting useful information from logs, web pages, or documents.  
