@@ -46,12 +46,16 @@ So regex iterator works like this:
 4. The iterator updates the std::smatch object with the new match in the std::smatch object.
 5. When no more matches are found, the it iterator is set to std::sregex_iterator{}, which is like an empty iterator.
 
+<<<<<<< HEAD
 We have 2 different iterators:
 - **regex_iterator()** is useful when you need to iterate over all full matches of a regex pattern. [Example]()
 - **regex_token_iterator()** allows specific functionality like:
     - Extract specific submatches from each match. [Example]()
     - Split a string based on a regex pattern. [Example]()
     - Iterate over both matching and non-matching parts. [Example]()
+=======
+You can find a basic example of this logic [here](https://github.com/duartemv00/CPPRegrexPossibilities/blob/main/regexIteratorBasicExample.cpp).
+>>>>>>> 89d45658f1fb7c82a13d2451d33bb06bbf80f3c6
 
 ### Real uses of Regular Expressions:
 - **Split Text**
